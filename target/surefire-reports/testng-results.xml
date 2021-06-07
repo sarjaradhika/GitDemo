@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-06T16:57:37 IST" name="Suite" finished-at="2021-06-06T16:59:30 IST" duration-ms="112660">
+    <groups>
+    </groups>
+    <test started-at="2021-06-06T16:57:37 IST" name="Test" finished-at="2021-06-06T16:59:30 IST" duration-ms="112660">
+      <class name="Academy.EndToEndProject.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.EndToEndProject.ValidateTitle@3b0c9195]" started-at="2021-06-06T16:58:09 IST" name="initialize" finished-at="2021-06-06T16:58:38 IST" duration-ms="28986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidateTitleMethod()[pri:0, instance:Academy.EndToEndProject.ValidateTitle@3b0c9195]" started-at="2021-06-06T16:58:38 IST" name="ValidateTitleMethod" finished-at="2021-06-06T16:58:38 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleMethod -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:Academy.EndToEndProject.ValidateTitle@3b0c9195]" started-at="2021-06-06T16:59:29 IST" name="closingdown" finished-at="2021-06-06T16:59:30 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+      </class> <!-- Academy.EndToEndProject.ValidateTitle -->
+      <class name="Academy.EndToEndProject.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.EndToEndProject.HomePage@5cbe877d]" started-at="2021-06-06T16:57:37 IST" name="initialize" finished-at="2021-06-06T16:57:49 IST" duration-ms="11920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.EndToEndProject.HomePage@5cbe877d]" started-at="2021-06-06T16:58:38 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-06-06T16:59:05 IST" duration-ms="26800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.EndToEndProject.HomePage@5cbe877d]" started-at="2021-06-06T16:59:05 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-06-06T16:59:27 IST" duration-ms="22411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:Academy.EndToEndProject.HomePage@5cbe877d]" started-at="2021-06-06T16:59:28 IST" name="closingdown" finished-at="2021-06-06T16:59:29 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+      </class> <!-- Academy.EndToEndProject.HomePage -->
+      <class name="Academy.EndToEndProject.ValidateNavBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.EndToEndProject.ValidateNavBar@5c08c46a]" started-at="2021-06-06T16:57:49 IST" name="initialize" finished-at="2021-06-06T16:58:09 IST" duration-ms="19607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.EndToEndProject.ValidateNavBar@5c08c46a]" started-at="2021-06-06T16:59:27 IST" name="basePageNavigation" finished-at="2021-06-06T16:59:28 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:Academy.EndToEndProject.ValidateNavBar@5c08c46a]" started-at="2021-06-06T16:59:29 IST" name="closingdown" finished-at="2021-06-06T16:59:29 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+      </class> <!-- Academy.EndToEndProject.ValidateNavBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
